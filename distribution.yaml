@@ -1,0 +1,14 @@
+name: my-hermes-profile-default
+version: 1.0.0
+description: "Hermes profile: default - general purpose with Agnes AI + GitHub MCP"
+author: WanderleeDev
+license: MIT
+hermes_requires: ">=0.12.0"
+
+env_requires:
+  - name: AGNES_API_KEY
+    description: "Agnes AI API key for image/video generation"
+    required: true
+  - name: OPENROUTER_API_KEY
+    description: "OpenRouter API key for LLM access"
+    required: true

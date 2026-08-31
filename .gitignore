@@ -1,0 +1,13 @@
+# Secrets
+.env
+auth.json
+
+# User data
+memories/
+sessions/
+state.db*
+logs/
+
+# OS
+.DS_Store
+*.swp
