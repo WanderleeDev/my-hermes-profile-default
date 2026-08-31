@@ -1,6 +1,6 @@
 name: my-hermes-profile-default
 version: 1.0.0
-description: "Hermes profile: default - general purpose with Agnes AI + GitHub MCP"
+description: "Hermes profile: default - general purpose with Agnes AI + GitHub MCP + Cloudflare MCP"
 author: WanderleeDev
 license: MIT
 hermes_requires: ">=0.12.0"
@@ -11,6 +11,9 @@ env_requires:
     required: true
   - name: OPENROUTER_API_KEY
     description: "OpenRouter API key for LLM access"
+    required: true
+  - name: CLOUDFLARE_API_TOKEN
+    description: "Cloudflare API token for Workers, R2, D1, Durable Objects"
     required: true
   - name: R2_ACCESS_KEY_ID
     description: "Cloudflare R2 access key ID for object storage"
